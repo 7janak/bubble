@@ -1,0 +1,11 @@
+*{ margin:0; padding:0; box-sizing: border-box;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+html, body{ height: 100%; width: 100%;}
+#main{height: 100%;width: 100%;background-color: rgb(186, 243, 186);display: flex;align-items: center;justify-content: center;}
+#panel{ width: 80%;height: 80%;background-color: white;border-radius: 10px;overflow: hidden;}
+#ptop{width: 100%;height: 100px;background-color: rgb(44, 245, 44);display: flex;color: white;padding:0px 30%;align-items: center;justify-content: space-between;}
+.box{padding:10px 20px;background-color: white;border-radius: 5px;color: rgb(113, 243, 113);font-weight: 600;font-size: 25px;}
+#elem{display: flex;align-items: center;gap: 20px;}
+#pbtm{ width: 100%;height: calc(100% - 100px);background-color: antiquewhite;padding: 20px;display: flex;gap: 20px;flex-wrap: wrap;justify-content: center;align-items: center;}
+#bubble{ height: 30px;width: 30px;background-color: green;color:whitesmoke;border-radius: 50%;display: flex;align-items: center;justify-content: center;font-size: 25px;font-weight: 600;}
+#elem h2{ font-weight: 700;}
+#bubble:hover{ background-color: aqua;cursor: pointer;}
